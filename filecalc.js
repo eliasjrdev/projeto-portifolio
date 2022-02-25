@@ -8,7 +8,7 @@ function resultado(){
     if (v3.value == 0 && v4.value == 0 && v1.value != 0 && v2.value !=0){
         var calc = v2.value / 100
         var r = calc * v1.value
-        res.innerHTML=`${v1.value}% de ${v2.value} é igual a ${r}`
+        res.innerHTML=`${v1.value}% de ${v2.value} é igual a ${r.toFixed(2)}`
         res.style.background='red'
         res.style.margin='30px'
     }
@@ -16,7 +16,7 @@ function resultado(){
     else if(v1.value == 0 && v2.value == 0 && v3.value != 0 && v4.value != 0) {
         var calc3 = v3.value / v4.value
         var resultcont = calc3 * 100
-        res.innerHTML=`O valor ${v3.value} representa ${resultcont} % de ${v4.value}`
+        res.innerHTML=`O valor ${v3.value} representa ${resultcont.toFixed(2)} % de ${v4.value}`
         res.style.background='red'
         res.style.margin='30px'
     }

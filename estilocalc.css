@@ -49,6 +49,32 @@ input{
     margin-top: 35px;
 }
 
+.botres {
+    padding: 10px;
+    width: 120px;
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.botres:hover{
+    background-color:rgb(139, 155, 179) ;
+}
+
+.botlimp{
+    padding: 10px;
+    width: 120px; 
+    background-color: lightsteelblue;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.botlimp:hover{
+    background-color:rgb(139, 155, 179) ;
+}
+
 .botvolt{
     margin: auto;
     background-color: white;
